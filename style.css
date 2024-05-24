@@ -3,26 +3,34 @@ html{
     height: 100vh;
 }
 body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 100vh;
     width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
+}
+h2, p{
+    margin: 0;
+    padding: 0;
 }
 .hero{
     display: flex;
     background-color: #1f2937;
+    flex-direction: column;
+    padding: 0 250px;
 }
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
-    padding: 0 200px;
 }
 header p{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 900;
 }
 ul{
     display: flex;
@@ -33,6 +41,35 @@ li a{
     color: #e5e7eb;
     text-decoration: none;
     font-size: 18px;
+}
+.hero-image, .hero-text{
+    width: 550px;
+    height: 225px;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #686d77;
+    color: #e5e7eb;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 125px 0;
+    gap: 50px;
+}
+
+.hero-text h2{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 footer{
     text-align: center;
