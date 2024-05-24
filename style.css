@@ -1,0 +1,40 @@
+html{
+    width: auto;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero{
+    display: flex;
+    background-color: #1f2937;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+header p{
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+} 
+li a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
