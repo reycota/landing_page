@@ -127,8 +127,46 @@ li a{
     font-weight: bolder;
     text-align: end;
 }
+.call-to-action{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 100px 200px;
+}
+.blue-container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    padding:50px 125px;
+    border-radius: 8px;
+}
+.hero-text button{
+    padding: 9px 30px;
+    border: 1px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.blue-container button{
+    padding: 9px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 footer{
     text-align: center;
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 40px 0;
 }
