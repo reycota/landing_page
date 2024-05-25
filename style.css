@@ -20,6 +20,7 @@ h2, p{
     background-color: #1f2937;
     flex-direction: column;
     padding: 0 250px;
+    flex: 1;
 }
 header{
     display: flex;
@@ -70,6 +71,45 @@ li a{
 .hero-text p{
     font-size: 18px;
     color: #e5e7eb;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.information h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px 0;
+}
+.cards-images{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+}
+.cards{
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 14px; 
+}
+
+.cards-text{
+    display: flex;
+    flex: 1;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+
+}
+.cards-text p{
+    width: 175px;
+    border: 4px solid white;
 }
 footer{
     text-align: center;
